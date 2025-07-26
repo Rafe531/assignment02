@@ -1,0 +1,264 @@
+
+.noto-serif-> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: normal;
+  
+}
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: 1rem;
+  font-weight: bold;
+  color: #252432;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/* header part */
+.header1{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+.nav-list a{
+    text-decoration: none;
+}
+.image1{
+    width: 135px;
+    height: 82px;
+}
+.font-size{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #8987A1;
+}
+.font-size1{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #000000;
+}
+
+/* banner */
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.banner-sub1{
+    /* margin-top: 162px; */
+    margin-bottom: 0;
+}
+.hero-image{
+    /* margin-top: 106px; */
+    margin-bottom: 0;
+}
+.bonner-sub-color{
+     font-family: "Noto Serif", serif;
+     font-size: 4rem;
+     font-weight: bold;
+}
+.span1{
+    color: #E95A08;
+}
+.banner-sub-color1{
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 13px;
+}
+
+/* main */
+/* main-part1 */
+.main-part1{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+    /* text-align: center; */
+}
+.main-header{
+    /* align-items: center; */
+    text-align: center;
+}
+.main-title{
+    font-family: "Noto Serif", serif;
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.span2{
+    color: #E95A08;
+}
+.main-detail{
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 888px;
+    margin: 0 auto;
+}
+.card{
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* gap: 20px; */
+    row-gap: 30px;
+    column-gap: 20px;
+}
+.card-item{
+    width: 270px;
+    text-align: center;
+}
+.card-image{
+    width: 270px;
+    height: 322.94px;
+    margin-bottom: 30px;
+}
+.card-text1{
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #111111;
+    margin-bottom: 20px;
+}
+.card-text2{
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #111111;
+    margin-bottom: 30px;
+}
+.btn{
+    width: 270px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border: none;
+}
+
+/* main-part2" */
+.main-part2{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 210px;
+    display: flex;
+    height: 597px;
+}
+.part2-img{
+    width: 100%;
+}
+.part2-img2{
+    width: 286px;
+    height: 286px;
+    margin-top: -1035px; 
+    /* margin-bottom: -438px; */
+}
+.main-part2-text{
+    max-width: 540px;
+    height: 521px;
+    margin-left: 60px;
+    margin-top: 38px;
+}
+.part2-title{
+    font-family: "Noto Serif", serif;
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #000000;
+    /* margin-top: 38px; */
+    margin-bottom: 20px;
+}
+.list-detail{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* main-part3 */
+.main-part3{
+    max-width: 1440px;
+    margin-top: 133px;
+    text-align: center;
+}
+.main-part3-title{
+    font-family: "Noto Serif", serif;
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.span3{
+    color: #E95A08;
+}
+.main-part3-sub{
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 888px;
+    margin: 0 auto;
+}
+
+/* main-part4 */
+.main-part4{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    
+    
+}
+.part4-img1, .part4-img2{
+    border-radius: 14px;
+}
+.part4-img1{
+    margin-bottom: 25px;
+}
+.part4-sub2{
+    margin-left: 28px;
+}
+.part4-img3{
+    border-radius: 22px;
+    
+}
+
+/* main-part5 */
+.main-part5{
+    
+    max-width: 1440px;
+}
+.main-part5-sub{
+    max-width: 830px;
+    margin: 0 auto;
+}
+.part5-title{
+    font-family: "Noto Serif", serif;
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+.input-part{
+    max-width: 644px;
+    height: 50px;
+}
+.btn1{
+    width: 186px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border: none;
+}
+
+
+
+
+
