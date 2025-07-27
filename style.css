@@ -436,6 +436,9 @@ input{
         height: 446px;
         margin-top: 0;
     }
+    .part2-img2{
+        display: none;
+    }
     .main-part2-text{
         margin-bottom: 0;
     }
@@ -450,13 +453,20 @@ input{
     .main-part4{
         flex-direction: column;
     }
+    .part4-text3, .part4-text1{
+        font-family: "Noto Serif", serif;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .anchor1, .anchor{
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+    }
     .part4-sub2{
         margin: 0 auto;
         margin-top: 20px;
         height: 172px;
-        font-family: "Noto Serif", serif;
-        font-size: 1.25rem;
-        font-weight: bold;
+        
     }
     
     .rafe1, .rafe2{
