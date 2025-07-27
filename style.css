@@ -2,7 +2,7 @@
 .noto-serif-> {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: ;
+  
   font-style: normal;
   
 }
@@ -30,6 +30,11 @@
     list-style: none;
     gap: 48px;
 }
+.trolly{
+    width: 24px;
+    height: 16px;
+    
+} 
 .nav-list a{
     text-decoration: none;
 }
@@ -155,13 +160,17 @@
     display: flex;
     height: 597px;
 }
-.part2-img{
-    width: 100%;
+.main-part2-image{
+    background-image: url(flower-store.png);
+    width: 540px;
 }
+
 .part2-img2{
     width: 286px;
     height: 286px;
-    margin-top: -1035px; 
+    margin-left: 347px;
+    margin-top: -120px
+    /* margin-top: -px;  */
     /* margin-bottom: -438px; */
 }
 .main-part2-text{
@@ -215,61 +224,128 @@
     margin: 0 auto;
     margin-top: 120px;
     display: flex;
+    height: 425px;
+    /* margin-bottom: 200px; */
     
     
-}
-.part4-img1, .part4-img2{
-    border-radius: 14px;
-}
-.part4-img1{
-    margin-bottom: 25px;
-}
-.part4-sub2{
-    margin-left: 28px;
-}
-.part4-img3{
-    border-radius: 22px;
+ }
+.rafe1{
+    background-image: url('deal-bloom.png');
+    width: 367px;
+    height: 201px;
+     margin-bottom: 25px; 
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     
 }
 
-/* main-part5 */
-.main-part5{
-    background-image: url(news-letter-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 1440px;
-    height: 533px;
-    margin-top: 120px;
-   
-}
-.main-part5-sub{
-    max-width: 830px;
-    /* margin: 0 auto;
-    margin-top: 199px; */
-    display: flex;
+.rafe2{
+    background-image: url('deal-ana.png'); 
+    width: 367px;
+    height: 198px;
     text-align: center;
-    align-items: center;
+    /* padding: 60px auto; */
+    /* margin: 60 auto; */
+    /* align-items: center; */
+}
+
+
+.part4-sub2{
+    background-image: url(deal-zabo.png); 
+    width: 753px;
+    height: 423px;
+    margin-left: 28px;
+    text-align: center;
+}
+.part4-text1{
+    font-family: "Noto Serif", serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.anchor{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.part4-text3{
+    font-family: "Noto Serif", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.anchor1{
+    font-family: "Inter", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+
+
+/* main-part5 */
+.rafe{
+    background-image: url('news-letter-bg.png');
+    background-size: cover;
+    height: 533px;
+    /* width: 1440px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    /* padding: 193px auto; */
+    /* padding: 60px 20px; Optional spacing */
+}
+
+
+.main-part-sub{
+    width: 844px;
+    height: 144px;
+    /* display: flex; */
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: 193px auto;  */
+    /* margin-top: 193px; */
+}
+.part5-detail{
+    display: flex;
+}
+input{
+    width: 644px;
+    height: 50px;
+    border: 1px solid tomato; 
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    margin-top: 23px;
+}
+.btn2{
+    width: 186px;
+    height: 50px;
+    color: #FFFFFF;
+     background-color: #E95A08; 
+    border: none;
+    margin-top: 23px;
 }
 .part5-title{
     font-family: "Noto Serif", serif;
     font-size: 3.1rem;
     font-weight: bold;
     color: #FFFFFF;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
-    margin-top: 196px;
+    /* margin-top: 196px; */
 }
 
 
-.btn1{
-    width: 186px;
-    height: 50px;
-    color: #FFFFFF;
-    background-color: #E95A08;
-    border: none;
-}
 
+ /* background-image: url(deal-zabo.png);  */
 /* footer */
 .footer-sec{
     display: flex;
@@ -302,5 +378,20 @@
 .footer-list{
     list-style: none;
 }
+.footer-sec-text{
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+}
+.footer-list a{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: gray;
+    
+}
+.footer-list{
+    margin-bottom: 32px;
+} 
 
 
